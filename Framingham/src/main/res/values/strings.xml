@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CardiApp</string>
+    <string name="sua_conduta_especifica">SUA CONDUTA ESPECÍFICA </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nome_do_paciente">Nome do paciente:</string>
+    <string name="salvar">Salvar</string>
+    <string name="novo_paciente">Novo Paciente</string>
+    <string name="resultado">Resultado</string>
+    <string name="parabens">PARABÉNS! Seu risco de desenvolver evento coronariano em 10 anos é baixo.</string>
+    <string name="parabens2">Caso alguma das taxas esteja alterada é recomendado tratamento com mudança do estilo de vida, caso não alcance as metas em 6 meses pode ser prescrito tratamento farmacológico.</string>
+    <string name="negoco">4 Diretriz Brasileira sobre dislipidemia e prevenção da aterosclerose da SBC</string>
+    <string name="ver_conduta_especifica">Ver Conduta Específica</string>
+    <string name="atencao">ATENÇÃO! Seu risco de desenvolver evento coronariano em 10 anos é intermediário.</string>
+    <string name="atencao2">Caso alguma das taxas esteja alterada é recomendado tratamento com mudança do estilo de   vida, caso não alcance as metas em 3 meses pode ser prescrito tratamento farmacológico.</string>
+    <string name="cuidado">CUIDADO! Seu risco de desenvolver evento coronariano em 10 anos é elevado.</string>
+    <string name="cuidado2">Como terapêutica inicial para esse paciente deve ser indicado mudança do estilo de vida e tratamento farmacológico.</string>
+    <string-array
+        name="sexo_array">
+        <item>No sexo masculino a probabilidade de eventos cardiovasculares são maiores, visto que os hormônios femininos protegem o coração,</item>
+        <item>No sexo feminino a probabilidade de eventos cardiovasculares são menores, visto que os hormônio femininos protegem o coração,</item>
+    </string-array>
+    <string name="conduta_idade">enquanto que com o avançar da idade, o risco cardiovascular aumenta, já que a aterosclerose é uma doença crônica e com evolução insidiosa.</string>
+
+    <string-array
+        name="colesterol_total">
+        <item>Taxa de colesterol menor que 160 é uma ótima notícia, caso não possuam fatores de risco, normalmente, não será indicado tratamento farmacológico,</item>
+        <item>Taxa de colesterol  entre 160-199 a depender dos fatores risco, deve ser tratada com mudança do estilo de vida e tratamento farmacológico,</item>
+        <item>Taxa de colesterol entre 200-239 deve ser analisada para tratamento com mudança do estilo de vida e tratamento farmacológico,</item>
+        <item>Taxa de colesterol entre 240-279 deve ser analisada para tratamento com mudança do estilo de vida e tratamento farmacológico,</item>
+        <item>Taxa de colesterol maior ou igual a 280 deve ser analisada para tratamento com mudança do estilo de vida e tratamento farmacológico,</item>
+    </string-array>
+    
+    <string-array name="conduta_tabaco">
+        <item>ao passo que não fumar diminui consideravelmente seu risco cardiovascular. Parabéns, essa é uma ótima escolha.</item>
+        <item>ao passo que fumar aumenta seu risco cardiovascular, tratamento cognitivo-comportamental e tratamento farmacológico com terapia de reposição de nicotina ou com terapia não nicotínicas com: bubpropiona, vareniclina ou nortriptila deve ser considerada.</item>
+    </string-array>
+
+    <string-array name="contuta_diabetes">
+        <item>No diabetes mellitus, altas taxas de açucar no sangue aumentam significativamente seu risco cardiovascular, manter o peso ideal, fazer esportes e ingerir comidas com baixos índices de açucar podem ajudar a manter sua glicemia,</item>
+        <item>Não ser diabético diminui seu risco cardiovascular. Parabéns, não esqueça de sempre fazer exercícios, manter um bom peso e fazer uma baixa ingesta de açucar,</item>
+    </string-array>
+
+    <string-array name="conduta_hdl_homem">
+        <item>à medida que taxas de HDL menores que 40 favorecem eventos cardiovasculares, assim deve ser considerado tratamento com mudança do estilo de vida, caso não melhore, pode ser prescrito tratamento farmacológico.</item>
+        <item>à medida que taxa de HDL maior que 40 é considerada normal.</item>
+        <item>à medida que taxa de HDL maior que 60 é um ótimo resultado, parabéns, essa taxa diminue seu risco cardiovascular.</item>
+    </string-array>
+
+    <string-array name="conduta_hdl_mulher">
+        <item>à medida que taxa de HDL menor que 50 favorece eventos cardiovasculares, assim deve ser considerado tratamento com mudança do estilo de vida, caso não melhore, pode ser prescrito tratamento farmacológico.</item>
+        <item>à medida que taxa de HDL maior que 50 é considerada normal.</item>
+        <item>à medida que taxa de HDL maior que 60 é um ótimo resultado, parabéns, essa taxa diminue seu risco cardiovascular.</item>
+    </string-array>
+
+    <string-array name="pressao">
+        <item>TA EM BRANCO,</item>
+        <item>Caso o paciente não possua comorbidades é indicado apenas tratamento com mudança do estilo de vida, caso o paciente possua comorbidades como: diabetes, insuficiência cardíaca congestiva ou insuficiência renal crônica, o médico deve prescrever mudança do estilo de vida e tratamento farmacológico,</item>
+        <item>Caso o paciente não possua comorbidades é indicado apenas tratamento com mudança do estilo de vida, caso o paciente possua comorbidades como: diabetes, insuficiência cardíaca congestiva ou insuficiência renal crônica, o médico deve prescrever mudança do estilo de vida e tratamento farmacológico,</item>
+        <item>Caso não possua fatores de risco ou lesão de órgão alvo, deve ser estabelecido como tratamento a mudança do estilo de vida, caso possua lesão de órgão alvo, deve ser prescrito mudança do estilo de vida por 6 meses, não normalizando a pressão,  o tratamento farmacológico está indicado. Em caso de paciente com fatores de risco e lesão de órgão-alvo, deve ser prescrito tratamento com mudança do estilo de vida e tratamento farmacológico,</item>
+        <item>Deve ser instituído tratamento com mudança do estilo de vida e tratamento farmacológico,</item>
+    </string-array>
+    
+
+    
+
+</resources>

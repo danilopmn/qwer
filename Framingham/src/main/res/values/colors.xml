@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="tab_highlight">#ffdddddd</color>
+    <color name="tab_highlight_bar">@android:color/darker_gray</color>
+    <color name="action_bar">#ff932b2b</color>
+    <color name="tab_items">#ffbd5149</color>
+</resources>

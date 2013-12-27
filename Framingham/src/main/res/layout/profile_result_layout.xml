@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/coracao"
+                    android:adjustViewBounds="true"
+                    android:paddingRight="2dp"
+                    android:layout_weight="2" />
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="3">
+                <com.medicalflame.framingham.AutoResizeTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ellipsize="none"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:maxLines="1"
+                    android:id="@+id/porce"
+                    android:text="Auto Resized Text, max 1 line"
+                    android:textSize="500sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/parabens"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="20dp"
+                android:paddingTop="10dp" />
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Sexo"
+                        android:layout_column="1"
+                        android:id="@+id/textView"
+                        android:paddingRight="5dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:gravity="right"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Medium Text"
+                        android:layout_column="2"
+                        android:layout_gravity="right"
+                        android:id="@+id/sexo"
+                        android:layout_weight="1" />
+                </TableRow>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#ddd"
+                    android:layout_margin="5dp"/>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Fuma"
+                        android:layout_column="1"
+                        android:id="@+id/textView"
+                        android:paddingRight="5dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Medium Text"
+                        android:layout_column="2"
+                        android:id="@+id/fuma"
+                        android:layout_weight="1" />
+                </TableRow>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#ddd"
+                    android:layout_margin="5dp"/>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Diabetes"
+                        android:layout_column="1"
+                        android:id="@+id/textView"
+                        android:paddingRight="5dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Medium Text"
+                        android:layout_column="2"
+                        android:id="@+id/diabetes"
+                        android:gravity="right"
+                        android:layout_weight="1" />
+                </TableRow>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#ddd"
+                    android:layout_margin="5dp"/>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Idade"
+                        android:layout_column="1"
+                        android:id="@+id/textView"
+                        android:paddingRight="5dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Medium Text"
+                        android:layout_column="2"
+                        android:id="@+id/idade"
+                        android:gravity="right"
+                        android:layout_weight="1" />
+                </TableRow>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#ddd"
+                    android:layout_margin="5dp"/>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Colesterol Total"
+                        android:layout_column="1"
+                        android:id="@+id/textView"
+                        android:paddingRight="5dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Medium Text"
+                        android:layout_column="2"
+                        android:id="@+id/ct"
+                        android:gravity="right"
+                        android:layout_weight="1" />
+                </TableRow>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#ddd"
+                    android:layout_margin="5dp"/>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Colesterol HDL"
+                        android:layout_column="1"
+                        android:id="@+id/textView"
+                        android:paddingRight="5dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Medium Text"
+                        android:layout_column="2"
+                        android:id="@+id/hdl"
+                        android:gravity="right"
+                        android:layout_weight="1" />
+                </TableRow>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#ddd"
+                    android:layout_margin="5dp"/>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="P.A. Sistólica"
+                        android:layout_column="1"
+                        android:id="@+id/textView"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Medium Text"
+                        android:layout_column="2"
+                        android:id="@+id/pas"
+                        android:gravity="right"
+                        android:layout_weight="1" />
+                </TableRow>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#ddd"
+                    android:layout_margin="5dp"/>
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="P.A. Diastólica"
+                        android:layout_column="1"
+                        android:id="@+id/textView"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Medium Text"
+                        android:layout_column="2"
+                        android:id="@+id/pad"
+                        android:gravity="right"
+                        android:layout_weight="1" />
+                </TableRow>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#ddd"
+                    android:layout_margin="5dp"/>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

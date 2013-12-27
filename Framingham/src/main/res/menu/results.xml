@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_save"
+        android:title="@string/salvar"
+        android:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/action_conduta"
+        android:title="@string/ver_conduta_especifica"
+        android:showAsAction="ifRoom"
+        />
+</menu>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.medicalflame.framingham"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme">
+        <activity
+            android:name="com.medicalflame.framingham.MainActivity"
+            android:label="@string/app_name"
+            >
+
+
+        <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.medicalflame.framingham.NewCalcActivity"
+            android:label="@string/app_name"/>
+        <activity
+            android:name="com.medicalflame.framingham.ResultActivity"
+            android:label="@string/resultado"
+            android:uiOptions="splitActionBarWhenNarrow">
+        <meta-data android:name="android.support.UI_OPTIONS"
+            android:value="splitActionBarWhenNarrow" />
+        </activity>
+        <activity
+            android:name="com.medicalflame.framingham.ProfileActivity"
+            android:label="Paciente"
+            android:parentActivityName="com.medicalflame.framingham.MainActivity">
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.medicalflame.framingham.MainActivity" />
+
+        </activity>
+        <activity
+            android:name="com.medicalflame.framingham.ChooseUserActivity"
+            android:label="Adicionar"/>
+        <activity
+            android:name="com.medicalflame.framingham.ProfileResultActivity"
+            android:label="Resultado">
+        </activity>
+        <activity
+            android:name="com.medicalflame.framingham.CondutaActivity"
+            android:label="Conduta">
+        </activity>
+        <activity
+            android:name="com.medicalflame.framingham.AboutActivity"
+            android:label="Sobre">
+        </activity>
+
+
+    </application>
+
+</manifest>
