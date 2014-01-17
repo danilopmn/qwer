@@ -7,8 +7,8 @@
         android:icon="@drawable/ic_medicalflame"
         android:showAsAction="ifRoom"
         />
-    <item android:id="@+id/about"
-        android:title="Sobre o Framingham"
+    <item android:id="@+id/aboutFram"
+        android:title="Sobre o CardiApp"
         android:icon="@drawable/ibranco2"
         app:showAsAction="ifRoom"
         android:showAsAction="ifRoom"

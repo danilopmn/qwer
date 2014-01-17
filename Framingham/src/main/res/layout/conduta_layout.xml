@@ -28,7 +28,7 @@
                     android:textStyle="bold"
                     android:gravity="left"
                     android:layout_gravity="center_horizontal"
-                    android:paddingBottom="30dp" />
+                    android:paddingBottom="10dp" />
             </LinearLayout>
 
             <TextView

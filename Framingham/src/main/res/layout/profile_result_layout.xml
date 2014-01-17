@@ -32,7 +32,7 @@
                     android:layout_height="match_parent"
                     android:layout_width="0dp"
                     android:layout_weight="3">
-                <com.medicalflame.framingham.AutoResizeTextView
+                <com.medicalflame.cardiapp.AutoResizeTextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ellipsize="none"
@@ -135,7 +135,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="Diabetes"
+                        android:text="Pressão Arterial Tratada"
                         android:layout_column="1"
                         android:id="@+id/textView"
                         android:paddingRight="5dp"
@@ -275,35 +275,7 @@
                     android:layout_height="1dp"
                     android:background="#ddd"
                     android:layout_margin="5dp"/>
-                <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:padding="5dp">
 
-                    <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="P.A. Diastólica"
-                        android:layout_column="1"
-                        android:id="@+id/textView"
-                        android:layout_weight="1" />
-
-                    <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="Medium Text"
-                        android:layout_column="2"
-                        android:id="@+id/pad"
-                        android:gravity="right"
-                        android:layout_weight="1" />
-                </TableRow>
-                <View
-                    android:layout_width="fill_parent"
-                    android:layout_height="1dp"
-                    android:background="#ddd"
-                    android:layout_margin="5dp"/>
             </TableLayout>
         </LinearLayout>
     </ScrollView>

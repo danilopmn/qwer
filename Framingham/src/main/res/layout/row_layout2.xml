@@ -1,46 +1,26 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
-    android:focusableInTouchMode="false">
-
-    <TableLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="0dp">
-        <!-- android:background="#e0e0e0" -->
-
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent">
 
             <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Large Text"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="LargeeTex1"
                 android:id="@+id/text_view1"
-                android:layout_column="1"
-                android:layout_gravity="left|center"
                 android:layout_weight="1"
+                android:gravity="center_vertical"
                 android:textSize="20sp"
-                android:alpha="1"/>
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
 
             <TextView
+                android:textSize="25sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Large Text"
                 android:id="@+id/text_view2"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:layout_column="2"
-                android:layout_gravity="center|right"
-                android:layout_margin="0dp"
-                android:padding="6dp"
-                android:alpha="1"/>
-            />
-
-
-        </TableRow>
-    </TableLayout>
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

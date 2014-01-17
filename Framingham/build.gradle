@@ -16,6 +16,21 @@ android {
     compileSdkVersion 18
     buildToolsVersion "18.1.1"
 
+    signingConfigs {
+        release{
+            storeFile file("medicalflame.jks")
+            storePassword "mediacalflamekeystorehenriquedaniloleoaumentativosucesso123321"
+            keyAlias "medicalflame"
+            keyPassword "123321mediacalflamekeystorehenriquedaniloleoaumentativosucesso"
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+
     defaultConfig {
         minSdkVersion 11
         targetSdkVersion 18

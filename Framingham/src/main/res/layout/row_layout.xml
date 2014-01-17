@@ -34,8 +34,7 @@
                 android:textSize="40sp"
                 android:layout_column="2"
                 android:layout_gravity="center|right"
-                android:layout_margin="0dp"
-                android:paddingRight="10dp" />
+                android:layout_margin="0dp"/>
 
 
         </TableRow>

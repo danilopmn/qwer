@@ -23,6 +23,7 @@
         <item>No sexo feminino a probabilidade de eventos cardiovasculares são menores, visto que os hormônio femininos protegem o coração,</item>
     </string-array>
     <string name="conduta_idade">enquanto que com o avançar da idade, o risco cardiovascular aumenta, já que a aterosclerose é uma doença crônica e com evolução insidiosa.</string>
+    <string name="sem_usuarios">Nenhum paciente cadastrado.</string>
 
     <string-array
         name="colesterol_total">
@@ -46,10 +47,12 @@
     <string-array name="conduta_hdl_homem">
         <item>à medida que taxas de HDL menores que 40 favorecem eventos cardiovasculares, assim deve ser considerado tratamento com mudança do estilo de vida, caso não melhore, pode ser prescrito tratamento farmacológico.</item>
         <item>à medida que taxa de HDL maior que 40 é considerada normal.</item>
+        <item>à medida que taxa de HDL maior que 40 é considerada normal.</item>
         <item>à medida que taxa de HDL maior que 60 é um ótimo resultado, parabéns, essa taxa diminue seu risco cardiovascular.</item>
     </string-array>
 
     <string-array name="conduta_hdl_mulher">
+        <item>à medida que taxa de HDL menor que 50 favorece eventos cardiovasculares, assim deve ser considerado tratamento com mudança do estilo de vida, caso não melhore, pode ser prescrito tratamento farmacológico.</item>
         <item>à medida que taxa de HDL menor que 50 favorece eventos cardiovasculares, assim deve ser considerado tratamento com mudança do estilo de vida, caso não melhore, pode ser prescrito tratamento farmacológico.</item>
         <item>à medida que taxa de HDL maior que 50 é considerada normal.</item>
         <item>à medida que taxa de HDL maior que 60 é um ótimo resultado, parabéns, essa taxa diminue seu risco cardiovascular.</item>

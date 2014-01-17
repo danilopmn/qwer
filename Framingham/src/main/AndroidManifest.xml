@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.medicalflame.framingham"
+    package="com.medicalflame.cardiapp"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="11"
@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/CustomActionBarTheme">
         <activity
-            android:name="com.medicalflame.framingham.MainActivity"
+            android:name="com.medicalflame.cardiapp.MainActivity"
             android:label="@string/app_name"
             >
 
@@ -25,39 +25,49 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.medicalflame.framingham.NewCalcActivity"
+            android:name="com.medicalflame.cardiapp.NewCalcActivity"
             android:label="@string/app_name"/>
         <activity
-            android:name="com.medicalflame.framingham.ResultActivity"
+            android:name="com.medicalflame.cardiapp.ResultActivity"
             android:label="@string/resultado"
-            android:uiOptions="splitActionBarWhenNarrow">
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:parentActivityName="com.medicalflame.cardiapp.MainActivity">
         <meta-data android:name="android.support.UI_OPTIONS"
             android:value="splitActionBarWhenNarrow" />
         </activity>
         <activity
-            android:name="com.medicalflame.framingham.ProfileActivity"
+            android:name="com.medicalflame.cardiapp.ProfileActivity"
             android:label="Paciente"
-            android:parentActivityName="com.medicalflame.framingham.MainActivity">
+            android:parentActivityName="com.medicalflame.cardiapp.MainActivity">
         <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.medicalflame.framingham.MainActivity" />
+                android:value="com.medicalflame.cardiapp.MainActivity" />
 
         </activity>
         <activity
-            android:name="com.medicalflame.framingham.ChooseUserActivity"
-            android:label="Adicionar"/>
+            android:name="com.medicalflame.cardiapp.ChooseUserActivity"
+            android:label="Adicionar"
+            android:parentActivityName="com.medicalflame.cardiapp.MainActivity"/>
         <activity
-            android:name="com.medicalflame.framingham.ProfileResultActivity"
-            android:label="Resultado">
+            android:name="com.medicalflame.cardiapp.ProfileResultActivity"
+            android:label="Resultado"
+            android:parentActivityName="com.medicalflame.cardiapp.MainActivity">
         </activity>
         <activity
-            android:name="com.medicalflame.framingham.CondutaActivity"
-            android:label="Conduta">
+            android:name="com.medicalflame.cardiapp.CondutaActivity"
+            android:label="Conduta"
+            android:parentActivityName="com.medicalflame.cardiapp.MainActivity">
         </activity>
         <activity
-            android:name="com.medicalflame.framingham.AboutActivity"
-            android:label="Sobre">
+            android:name="com.medicalflame.cardiapp.AboutActivity"
+            android:label="MedicalFlame"
+            android:parentActivityName="com.medicalflame.cardiapp.MainActivity">
+        </activity>
+        <activity
+            android:name="com.medicalflame.cardiapp.AboutFramActivity"
+            android:label="Sobre"
+            android:parentActivityName="com.medicalflame.cardiapp.MainActivity">
         </activity>
 
 
